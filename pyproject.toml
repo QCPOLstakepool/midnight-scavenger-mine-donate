@@ -3,6 +3,7 @@ name = "midnight-scavenger-mine-donate"
 version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = [
+    "curl-cffi>=0.13.0",
     "requests",
     "pycardano>=0.17.0"
 ]
